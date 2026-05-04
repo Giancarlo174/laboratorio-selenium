@@ -25,4 +25,4 @@ def test_flujo_completo_pom(driver):
     cantidad_en_carrito = pagina_inventario.obtener_cantidad_carrito()
     
     # Le diremos que espere 5 productos en vez de 1 para que la prueba explote y tome foto.
-    assert cantidad_en_carrito == "5", "Error intencional: El carrito no tiene 5 productos"
+    assert cantidad_en_carrito == "1", "Error: El carrito no tiene 1 producto"
